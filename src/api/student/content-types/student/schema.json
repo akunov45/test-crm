@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Students",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "integer"
+    },
+    "is_study": {
+      "type": "boolean",
+      "default": true
+    },
+    "is_transferred": {
+      "type": "boolean",
+      "default": false
+    },
+    "direction": {
+      "type": "string"
+    }
+  }
+}
